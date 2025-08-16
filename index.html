@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description">
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" alt="Devchallanges icon">
+    <title>Testimonial Review </title>
+</head>
+<style>
+    body{
+        background-color: #FAFAF9;
+    }
+    h1{
+        font-family: "Sora", sans-serif;
+        font-size: 36px;
+    }
+    h2{
+        font-family: "Sora", sans-serif;
+        font-size: 20px;
+        color: #52525A;
+    }
+    h3{
+        font-family: "Sora", sans-serif;
+        font-size: 16px;
+        color: #18181B;
+    }
+    p{
+        font-family: "Sora", sans-serif;
+        font-size: 16px;
+        color: #52525A;
+    }
+
+    .p2{
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #52525A;
+    }
+
+    .kotak1{
+        border: px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .kotakReview{
+        border: px solid black;
+        width: 520px;
+        padding: 100px;
+    }
+    .bintang{
+        width: 40px;
+        height: 40px;
+        border: px solid #F5C044; 
+        background-color: #F5C044; 
+        color: white;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .kotakMetaGoogle{
+        border: px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .latarGoogle{
+        border: px solid yellow;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 200px;
+        width: 800px;
+    }
+    .latarMeta{
+        border: px solid green;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 200px;
+        width: 800px;
+    }
+    .kotakGoogle{
+        border: px solid black;
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+        width: 250px;
+
+    }
+    .kotakMeta{
+        border: px solid black;
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+        width: 250px;
+
+    }
+
+    .custom-list {
+        list-style: none;   
+        padding-left: 0;
+    }
+
+    .custom-list li {
+        background: url("resources/Done_ring_round_fill.svg") no-repeat left center;
+        background-size: 20px;   
+        padding-left: 30px;      
+        margin-bottom: 8px;
+    }
+    
+    @media (max-width: 1024px) {
+        .kotakReview{
+            width: 100%;
+            padding: 20px;
+        }
+    }
+    @media (max-width: 640px) {
+        .kotakGoogle,
+        .kotakMeta,
+        .latarGoogle,
+        .latarMeta{
+            width: 100%;
+          
+        }
+    }
+</style>
+<body>
+    <div class="kotak1">
+        <div class="kotakReview">
+            <div class="bintang"><h2>⭐️</h1></div>
+            <h1>Reviewers</h1>
+            <h2 style="line-height: 1.6;">Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.</h2>
+            
+            <ul class="custom-list">
+                <li><p class="p2">Checklist to Review an Academic Paper</p></li>
+                <li><p class="p2">Peer Review Checklist</p></li>
+                <li><p class="p2">Checklist for Editors, Reviewers, and Authors of SPIE Journals</p></li>
+            </ul>
+        </div>
+        <div class="kotakMetaGoogle">
+            <div class="latarGoogle">
+                <div class="kotakGoogle">
+                        <div style=" display: flex; flex-wrap: nowrap;  gap: 8px;">
+                            <img src="resources/google-png.png" alt="Google photo">
+                            <div>
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill_gray.svg" alt="grey star">
+                            </div>
+                        </div>
+                        <h3>Samantha Lee</h3>
+                        <p style="line-height: 1.6;">The checklist ensures that the review process is thorough</p>
+                </div>
+            </div>
+            <div class="latarMeta">
+                <div class="kotakMeta">
+                    <div style=" display: flex; flex-wrap: nowrap;  gap: 8px;">
+                            <img src="resources/meta-png.png" alt="Meta photo">
+                            <div>
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                                <img src="resources/Star_fill.svg" alt="yellow star">
+                              
+                            </div>
+                        </div>
+                        <h3>Rachel Patel</h3>
+                        <p  style="line-height: 1.6;">I highly recommend the Writecream Business Description</b></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
